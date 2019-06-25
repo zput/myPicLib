@@ -1,0 +1,108 @@
+
+digraph beegoRouter{
+	fontname = "Verdana";
+	fontsize = 10;
+	rankdir=TB;
+
+	node [fontname = "Verdana", fontsize = 10, color="skyblue", shape="record"];
+	edge [fontname = "Verdana", fontsize = 10, color="crimson", style="solid"];
+
+
+
+
+
+// ---------------------First------------------------------------
+
+    	ControllerRegister [label="{<head>ControllerRegister\
+			|<routers>routers map[string]*Tree\
+			|<enablePolicy>enablePolicy bool\
+			|<policies>policies map[string]*Tree\
+			|<enableFilter>enableFilter bool\
+			|<filters>filters [FinishRouter+1][]*FilterRouter\
+			|<pool>pool sync.Pool}" xlabel="routers's string is http's method\n\n \
+						pattern=\"/firms/:firmId/avatars\";\n    \
+					        c=&controllers.AvatarModelCtl{};\n      \
+						mappingMethods=\"get:ListAvatarModel\"\r \
+			"];
+
+        
+	Tree [label="{<head>Tree struct|<prefix>prefix\
+		|<fixrouters>fixrouters []*Tree\
+		|<wildcard>wildcard *Tree\
+		|<leaves>leaves []*leafInfo}"];
+
+
+	ControllerRegister:routers->Tree:head[
+			label="map[GET]\"this tree\"\n this prefix is not used and \n this fixrouters is used",
+	        	style="dashed", 
+			color="forestgreen"]
+         
+
+//.....................
+	//rankdir=LR;
+//.....................
+
+
+
+
+
+// ------label expressed this SubTree context-------------
+
+
+	SubTree [label="{<head>Tree struct|<prefix>prefix\
+		|<fixrouters>fixrouters []*Tree\
+		|<wildcard>wildcard *Tree\
+		|<leaves>leaves []*leafInfo}"];
+
+
+	Tree:fixrouters->SubTree:head[
+			label="prefix == firms \n and "
+
+	]
+
+// ---------------------------------------------------------
+
+	SubTree2 [label="{<head>Tree struct|<prefix>prefix\
+		|<fixrouters>fixrouters []*Tree\
+		|<wildcard>wildcard *Tree\
+		|<leaves>leaves []*leafInfo}"];
+
+
+	SubTree:wildcard->SubTree2:head[
+			label=""
+
+	]
+
+
+// ---------------------------------------------------------
+
+	SubTree3 [label="{<head>Tree struct|<prefix>prefix\
+		|<fixrouters>fixrouters []*Tree\
+		|<wildcard>wildcard *Tree\
+		|<leaves>leaves []*leafInfo}"];
+
+
+	SubTree2:wildcard->SubTree3:head[
+			label="prefix=avatars"
+
+	]
+
+
+// ---------------------------------------------------------
+
+  	leafInfo [label="{<head>leafInfo struct\
+		|<wildcards>wildcards []string\
+		|<regexps>regexps *regexp.Regexp\
+		|<runObject>runObject interface\{\}}"];
+
+
+
+	SubTree3:leaves->leafInfo:head[
+			label="&leafInfo{runObject: route, wildcards: wildcards}"
+
+	]
+
+
+
+
+}

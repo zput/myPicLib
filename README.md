@@ -16,3 +16,7 @@ alias tp='tp(){ cd E:/SkyDrive/img;git add .;git commit -m "blog_img";git push o
 
 ```
 
+eiis
+
+https://github.com/njleonzhang/vscode-extension-mardown-image-paste
+

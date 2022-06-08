@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T09:42:47.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="qn3oDqQjUsMdh9yL3MQ8" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:44:07.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hkOSzwd6eaHLKRih3Sn0" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="901" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="1760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,9 +73,9 @@
         <mxCell id="9I0-boqcDPnJypNhuAT8-22" value="New" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="940" y="-600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9I0-boqcDPnJypNhuAT8-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.433;exitY=0.956;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9I0-boqcDPnJypNhuAT8-14" target="9I0-boqcDPnJypNhuAT8-17">
+        <mxCell id="9I0-boqcDPnJypNhuAT8-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="9I0-boqcDPnJypNhuAT8-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="-510" as="sourcePoint" />
+            <mxPoint x="520" y="-760" as="sourcePoint" />
             <mxPoint x="670" y="-560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -95,6 +95,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="980" y="-640" as="sourcePoint" />
             <mxPoint x="690" y="-720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9I0-boqcDPnJypNhuAT8-26" value="sharedInformerFactory工程作为实参" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9I0-boqcDPnJypNhuAT8-25">
+          <mxGeometry x="0.2875" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

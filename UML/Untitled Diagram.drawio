@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T08:11:27.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="g6t3qIfYTM7CC72TBSoF" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:37:00.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="W09zltQA2l9VtZrCxK_O" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="901" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,16 @@
           <mxGeometry x="1230.5" y="420" width="99" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9I0-boqcDPnJypNhuAT8-11" value="Run" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="375" width="60" height="30" as="geometry" />
+          <mxGeometry x="1320" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9I0-boqcDPnJypNhuAT8-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-520" width="290" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9I0-boqcDPnJypNhuAT8-14" value="sharedInformerFactory" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-500" width="123" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9I0-boqcDPnJypNhuAT8-15" value="struct 结构体" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="-610" width="123" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

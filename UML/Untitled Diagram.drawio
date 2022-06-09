@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T07:09:52.794Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="QpjpH6tMIK1utW8o5v2g" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T07:11:32.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="3BS_f0VNfs_v5DkfyWiT" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="1400" dy="2750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="915" dy="2402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,7 +370,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-42" value="cache.SharedIndexInformer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-162.5" width="157" height="35" as="geometry" />
+          <mxGeometry x="490" y="-150" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ydm671sWrD_vEUtVRaSv-20" target="ydm671sWrD_vEUtVRaSv-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -434,6 +434,12 @@
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-76" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;informers&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;text-align: center;&quot;&gt;类型:map&lt;br&gt;[reflect.Type]cache.SharedIndexInformer&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="475.5" y="-624" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-77" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#330000;strokeWidth=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ydm671sWrD_vEUtVRaSv-42" target="ydm671sWrD_vEUtVRaSv-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="-410" as="sourcePoint" />
+            <mxPoint x="610" y="-460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

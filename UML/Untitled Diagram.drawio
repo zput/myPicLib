@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T07:43:32.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="OVx7KMT0jp28mgcxPCdP" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T07:45:10.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="WdD0G8hPMmowcDPWFk_0" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="2915" dy="3245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2195" dy="2727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,10 +478,10 @@
           <mxGeometry x="-1100" y="-700" width="700" height="780" as="geometry" />
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-86" value="SharedIndexInformer" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-565" y="-618" width="135" height="48" as="geometry" />
+          <mxGeometry x="-565" y="-618" width="135" height="38" as="geometry" />
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-87" value="cache" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-565" y="-680" width="135" height="50" as="geometry" />
+          <mxGeometry x="-565" y="-680" width="135" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

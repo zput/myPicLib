@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T04:04:43.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="V4DjElp0FOpCtJFTLryL" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T06:39:33.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6wbzqyxAYcIWEmeswnfm" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="1044" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1555" dy="2861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -362,6 +362,11 @@
             <mxPoint x="1750" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-52" value="作为参数传入到这个struct中方便后续从&lt;br&gt;Indexer(相当于一块缓存)中提取想要的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ydm671sWrD_vEUtVRaSv-41">
+          <mxGeometry x="-0.3189" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-42" value="cache.SharedIndexInformer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="-162.5" width="157" height="35" as="geometry" />
         </mxCell>
@@ -399,6 +404,9 @@
             <mxPoint x="1870" y="830" as="sourcePoint" />
             <mxPoint x="1920" y="780" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-49" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="760" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

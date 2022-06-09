@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T07:27:08.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="O3wJ58pXuMQE2xyV-1Vg" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T07:27:59.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="7NraIdirsYAesXTYC6s9" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="1823" dy="3054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1878" dy="3094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -458,6 +458,21 @@
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-81" value="遍历Informers启动cache.ShareIndexInformer的Run()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-32.5" y="-475" width="212.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-82" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#330000;strokeWidth=1;exitX=0.528;exitY=1.014;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="ydm671sWrD_vEUtVRaSv-79" target="ydm671sWrD_vEUtVRaSv-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="-490" as="sourcePoint" />
+            <mxPoint x="210" y="-540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-83" value="" style="shape=link;html=1;rounded=0;endArrow=block;endFill=1;strokeColor=#330000;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ydm671sWrD_vEUtVRaSv-81" target="ydm671sWrD_vEUtVRaSv-76">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="380" y="-570" as="sourcePoint" />
+            <mxPoint x="480" y="-570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="-520" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

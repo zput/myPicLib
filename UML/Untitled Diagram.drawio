@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T04:03:43.048Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IyRO5YKaN1tW_Dm1m-LK" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T04:04:43.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="V4DjElp0FOpCtJFTLryL" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="1338" dy="2706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1044" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -392,6 +392,12 @@
         <mxCell id="ydm671sWrD_vEUtVRaSv-46" value="通过sharedIndexInformer的&lt;br&gt;GetIndexer()返回cache.Indexer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ydm671sWrD_vEUtVRaSv-45">
           <mxGeometry x="0.9286" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.327;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ydm671sWrD_vEUtVRaSv-40" target="ydm671sWrD_vEUtVRaSv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1870" y="830" as="sourcePoint" />
+            <mxPoint x="1920" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

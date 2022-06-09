@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T04:00:48.710Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DR38eZAW7KmD3qWDPZmD" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T04:01:33.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="btziY_2QL5VB1_G7c5-3" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="1437" dy="2777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1132" dy="2557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -363,7 +363,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-42" value="cache.SharedIndexInformer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="473" y="-155" width="157" height="35" as="geometry" />
+          <mxGeometry x="490" y="-162.5" width="157" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ydm671sWrD_vEUtVRaSv-20" target="ydm671sWrD_vEUtVRaSv-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-110" as="sourcePoint" />
+            <mxPoint x="460" y="-160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-44" value="生成了sharedIndexInformer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ydm671sWrD_vEUtVRaSv-43">
+          <mxGeometry x="-0.6353" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

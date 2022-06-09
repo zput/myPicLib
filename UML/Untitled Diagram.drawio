@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T02:51:28.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="CQk4kmqemYlfky6SS-Fu" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T02:52:30.815Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KU42vHr76-Pq7vPWs1eF" version="19.0.2" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
     <mxGraphModel dx="1338" dy="2706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,14 +242,17 @@
         <mxCell id="ydm671sWrD_vEUtVRaSv-8" value="InformerFor()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="420" y="-320" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ydm671sWrD_vEUtVRaSv-10" value="type NewInformerFunc &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;func(kubernetes.Interface, time.Duration) &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cache.SharedIndexInformer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="473" y="-425" width="260" height="35" as="geometry" />
+        <mxCell id="ydm671sWrD_vEUtVRaSv-10" value="type NewInformerFunc &lt;br&gt;&amp;nbsp; func(kubernetes.Interface, time.Duration) &lt;br&gt;&amp;nbsp; cache.SharedIndexInformer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="-428.75" width="227" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="ydm671sWrD_vEUtVRaSv-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.274;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ydm671sWrD_vEUtVRaSv-10" target="ydm671sWrD_vEUtVRaSv-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="-340" as="sourcePoint" />
             <mxPoint x="580" y="-390" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ydm671sWrD_vEUtVRaSv-12" value="runtime.Object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-428.75" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

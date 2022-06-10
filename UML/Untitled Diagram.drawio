@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T06:26:21.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KXkYOGfpLlithKNv1Exi" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T06:26:41.252Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-QPjRE_g6IXz5II3czxC" version="19.0.3" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
     <mxGraphModel dx="4359" dy="3056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -617,19 +617,19 @@
           <mxGeometry x="-2600" y="-2040" width="263.09" height="451.87" as="geometry" />
         </mxCell>
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-22" value="某对象(StoragePool)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2140" y="-2020" width="120" height="40" as="geometry" />
+          <mxGeometry x="-2128" y="-2030" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-23" value="&lt;span style=&quot;&quot;&gt;metav1.TypeMeta&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-2145" y="-1950" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2175" y="-1960" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-24" value="&lt;span style=&quot;&quot;&gt;metav1.ObjectMeta&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-2145" y="-1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2175" y="-1880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-25" value="Spec" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-2145" y="-1783" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2175" y="-1793" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-27" value="Status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-2145" y="-1700" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2175" y="-1710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

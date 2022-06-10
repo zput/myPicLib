@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T07:12:15.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="WooNmykLsJb6xEmg3q1N" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T07:13:52.918Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Sq_i_-Zs0juVRy1JkZFG" version="19.0.3" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="3470" dy="3617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3849" dy="3876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -681,11 +681,17 @@
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-49" value="ListAccessor" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-2850" y="-1370" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zzcTscvAmVRcl0DYO9Qi-50" value="ListAccessor" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2790" y="-1150" width="110" height="30" as="geometry" />
+        <mxCell id="zzcTscvAmVRcl0DYO9Qi-50" value="List" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2870" y="-1220" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-54" value="" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-2836.67" y="-1300" width="83.33" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zzcTscvAmVRcl0DYO9Qi-55" value="ListMetaAccessor" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2806.67" y="-1220" width="136.67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zzcTscvAmVRcl0DYO9Qi-56" value="metav1.ListMetaAccessor" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2660" y="-1220" width="196.67" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

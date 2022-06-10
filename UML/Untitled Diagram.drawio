@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-10T11:01:16.270Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="iH4zkruHYeBsAi3g_b6c" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T11:02:04.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="UacOUWAKQ0N1Nev9bdRO" version="19.0.3" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="4708" dy="3899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4620" dy="3838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -763,7 +763,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zzcTscvAmVRcl0DYO9Qi-74" value="起协程，select等待重置store的chan" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2620" y="-250" width="200" height="46" as="geometry" />
+          <mxGeometry x="-2590" y="-284.5" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="zzcTscvAmVRcl0DYO9Qi-75" value="开协程拉取数据List数据" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2820" y="-249.5" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="zzcTscvAmVRcl0DYO9Qi-76" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zzcTscvAmVRcl0DYO9Qi-66" target="zzcTscvAmVRcl0DYO9Qi-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2610" y="-260" as="sourcePoint" />
+            <mxPoint x="-2560" y="-310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T02:53:32.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="hRyN05Y3hwlN0_Efd-MY" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T02:57:46.942Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="MYV31A48tGLmS_wjylLv" version="19.0.3" type="github">
   <diagram id="lDH8dOn5EeC3TFNrhBwo" name="Page-1">
-    <mxGraphModel dx="4491" dy="4357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3984" dy="3993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -914,16 +914,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IitTYNE8feOACwLUeTiw-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="-2080" width="360" height="640" as="geometry" />
+          <mxGeometry x="-1080" y="-2160" width="300" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="IitTYNE8feOACwLUeTiw-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="-2080" width="360" height="100" as="geometry" />
+        <mxCell id="IitTYNE8feOACwLUeTiw-38" value="items" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-1910" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IitTYNE8feOACwLUeTiw-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="-1980" width="360" height="100" as="geometry" />
+        <mxCell id="IitTYNE8feOACwLUeTiw-39" value="queue" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-1820" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IitTYNE8feOACwLUeTiw-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1080" y="-1880" width="360" height="100" as="geometry" />
+        <mxCell id="IitTYNE8feOACwLUeTiw-40" value="keyFunc&lt;br&gt;key,err:=keyFunc(Object)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="-1720" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IitTYNE8feOACwLUeTiw-41" value="cond sync.Cond" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-2010" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IitTYNE8feOACwLUeTiw-42" value="lock sync.RWMutex" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="-2100" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
